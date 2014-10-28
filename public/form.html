@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+		<style type="text/css">
+			body {
+				font-family: Helvetica, arial, sans-serif; 
+				color: rgb(102, 0, 51);
+			}
+
+			h1 {
+				font-size: 25px;
+				color: rgb(0, 153, 76);
+			}
+			.input {
+				margin-left: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Subscribe To Our Newsletter</h1>
+		<form id="register">
+			First Name:	<input type="text" name="firstname" class="input"> <br>
+			Last Name: <input type="text" name="lastname" class="input"> <br>
+			E-mail: <input type="text" name="email" class="input"> <br><br>
+
+			Your Interests: <br>
+			<input type="checkbox" name="interests" value="Web Technologies">Web Technologies</input>
+			<input type="checkbox" name="interests" value="Cloud Services">Cloud Services</input>
+			<input type="checkbox" name="interests" value="Big Data">Big Data</input>
+			<input type="checkbox" name="interests" value="Business Technologies">Business Technologies and Applications</input>
+
+			<br><br>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+
+	<script type="text/javascript" src="client.js"></script>
+</HTML>
